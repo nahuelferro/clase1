@@ -1,0 +1,31 @@
+
+
+
+
+######
+DATOS PARA GIT
+######
+1. Ejecutar: 
+    
+    git init 
+
+    -- este comando se ejecuta una sola vez.
+
+2. Agregar los archivos, carpertas para que GIT realice el seguimineto
+
+        git add .                    => seguimiento de todos los elementos 
+
+        git add index.html           => seguiminento de un archivo a la vvez 
+
+3. agregar la url del repositorio remoto, esa url la tenemos que traer desde el repo creado en GITHUB
+
+        git remote add origin https://..... (se copia desde el repositorio creado en github)
+
+
+4. Empaquetamos todo el proyecto con 
+
+    git commit -m "iriria el mensaje"
+
+5. Enviamos los datos a github
+
+        git push  origin master 
